@@ -8,9 +8,7 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 
-
 export default async function Home() {
-
   return (
     <>
       <HeroSection />
@@ -21,6 +19,7 @@ export default async function Home() {
       <Education />
       {/* <Blog blogs={blogs} /> */}
       <ContactSection />
+  
     </>
-  )
-};
+  );
+}
