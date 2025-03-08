@@ -1,0 +1,3 @@
+How to load resume  
+
+data-> personaldata.js ->resume googledrive link
