@@ -51,48 +51,48 @@ export const projectsData = [
     demo: "",
     link: "https://nishantkr2003.github.io/Mushroom-landing-page/",
   },
-  {
-    id: 5,
-    name: "Weather App",
-    description:
-      "A weather application that provides real-time weather information for any location. Built using React and OpenWeatherMap API, it features a clean and responsive design, allowing users to search for weather updates by city name.",
-    tools: ["React", "JavaScript", "CSS", "OpenWeatherMap API"],
-    role: "Frontend Developer",
-    code: "",
-    demo: "",
-    link: "https://github.com/nishantkr2003/Weather-Forcasting-app",
-  },
-  {
-    id: 6,
-    name: "Personal Blog",
-    description:
-      "A personal blog platform where users can create, edit, and delete blog posts. Built with Node.js, Express, and MongoDB for the backend, and React for the frontend. It includes user authentication, comment sections, and a rich text editor for creating posts.",
-    tools: ["Node.js", "Express", "MongoDB", "React", "CSS"],
-    role: "Full Stack Developer",
-    code: "",
-    demo: "",
-    link: "https://example.com/personal-blog",
-  },
-  {
-    id: 7,
-    name: "Portfolio Website",
-    description:
-      "A personal portfolio website to showcase projects and skills. Built using HTML, CSS, and JavaScript, it features a responsive design, smooth animations, and a contact form. The website highlights the developer's work and provides an easy way for potential clients to get in touch.",
-    tools: ["HTML", "CSS", "JavaScript"],
-    role: "Frontend Developer",
-    code: "",
-    demo: "",
-    link: "https://example.com/portfolio-website",
-  },
-  {
-    id: 8,
-    name: "E-commerce Platform",
-    description:
-      "An e-commerce platform with features like product listing, shopping cart, user authentication, and payment integration. Built using React for the frontend and Node.js with Express for the backend. It includes a secure payment gateway and an admin panel for managing products and orders.",
-    tools: ["React", "Node.js", "Express", "MongoDB", "CSS"],
-    role: "Full Stack Developer",
-    code: "",
-    demo: "",
-    link: "https://example.com/e-commerce-platform",
-  },
+  //{
+  //   id: 5,
+  //   name: "Weather App",
+  //   description:
+  //     "A weather application that provides real-time weather information for any location. Built using React and OpenWeatherMap API, it features a clean and responsive design, allowing users to search for weather updates by city name.",
+  //   tools: ["React", "JavaScript", "CSS", "OpenWeatherMap API"],
+  //   role: "Frontend Developer",
+  //   code: "",
+  //   demo: "",
+  //   link: "https://github.com/nishantkr2003/Weather-Forcasting-app",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Personal Blog",
+  //   description:
+  //     "A personal blog platform where users can create, edit, and delete blog posts. Built with Node.js, Express, and MongoDB for the backend, and React for the frontend. It includes user authentication, comment sections, and a rich text editor for creating posts.",
+  //   tools: ["Node.js", "Express", "MongoDB", "React", "CSS"],
+  //   role: "Full Stack Developer",
+  //   code: "",
+  //   demo: "",
+  //   link: "https://example.com/personal-blog",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Portfolio Website",
+  //   description:
+  //     "A personal portfolio website to showcase projects and skills. Built using HTML, CSS, and JavaScript, it features a responsive design, smooth animations, and a contact form. The website highlights the developer's work and provides an easy way for potential clients to get in touch.",
+  //   tools: ["HTML", "CSS", "JavaScript"],
+  //   role: "Frontend Developer",
+  //   code: "",
+  //   demo: "",
+  //   link: "https://example.com/portfolio-website",
+  // },
+  // {
+  //   id: 8,
+  //   name: "E-commerce Platform",
+  //   description:
+  //     "An e-commerce platform with features like product listing, shopping cart, user authentication, and payment integration. Built using React for the frontend and Node.js with Express for the backend. It includes a secure payment gateway and an admin panel for managing products and orders.",
+  //   tools: ["React", "Node.js", "Express", "MongoDB", "CSS"],
+  //   role: "Full Stack Developer",
+  //   code: "",
+  //   demo: "",
+  //   link: "https://example.com/e-commerce-platform",
+  // },
 ];
