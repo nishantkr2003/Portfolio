@@ -1,20 +1,23 @@
 "use client";
 
-import Lottie from "lottie-react";
+import { useEffect } from "react";
+import lottie from "lottie-web";
 
-const AnimationLottie = ({ animationPath, width }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationPath,
-    style: {
-      width: '95%',
+function AnimationLottie({ animationData }) {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // This code will only run on the client side
+      lottie.loadAnimation({
+        container: document.getElementById("lottie-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+      });
     }
-  };
+  }, [animationData]);
 
-  return (
-    <Lottie {...defaultOptions} />
-  );
-};
+  return <div id="lottie-animation"></div>;
+}
 
 export default AnimationLottie;
