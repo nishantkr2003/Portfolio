@@ -5,7 +5,7 @@ import lottie from "lottie-web";
 
 function AnimationLottie({ animationData }) {
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== "undefined" && typeof document !== "undefined") {
       // This code will only run on the client side
       lottie.loadAnimation({
         container: document.getElementById("lottie-animation"),
